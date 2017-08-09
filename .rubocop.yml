@@ -42,3 +42,6 @@ Rails:
 
 Style/CyclomaticComplexity:
   Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false

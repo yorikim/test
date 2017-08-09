@@ -8,7 +8,7 @@ class Mathematic
   end
 
   def div(a, b)
-    return 0 if b == 0
+    return 0 if b.zero?
     a / b
   end
 
