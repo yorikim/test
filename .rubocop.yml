@@ -39,3 +39,6 @@ Style/FrozenStringLiteralComment:
 
 Rails:
   Enabled: true
+
+Style/CyclomaticComplexity:
+  Enabled: false
