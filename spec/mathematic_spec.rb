@@ -4,7 +4,7 @@ require_relative '../mathematic'
 describe Mathematic do
   it 'sums two numbers' do
     expect(subject.sum(1, 2)).to eq(3)
-    expect(subject.sum(1000 **3, 2)).to eq(1_000_000_002)
+    expect(subject.sum(1000**3, 2)).to eq(1_000_000_002)
     expect(subject.sum(-1, 1)).to eq(0)
   end
 
