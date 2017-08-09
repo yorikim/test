@@ -1,0 +1,41 @@
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'bin/**/*'
+    - 'vendor/**/*'
+    - 'app/models/ability.rb'
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - 'Guardfile'
+    - 'spec/**/*'
+
+Metrics/LineLength:
+  Max: 120
+
+Style/ClassAndModuleChildren:
+  Exclude:
+    - 'app/**/*'
+
+Style/Documentation:
+  Enabled: false
+
+Style/EmptyMethod:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Rails:
+  Enabled: true
